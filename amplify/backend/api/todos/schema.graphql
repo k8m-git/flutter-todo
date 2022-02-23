@@ -1,4 +1,4 @@
-type Todo @model @auth(rules: [{allow: public}]) {
+type TODO @model @auth(rules: [{allow: public}]) {
   id: ID!
   name: String!
   description: String
